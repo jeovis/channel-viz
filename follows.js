@@ -11,14 +11,23 @@
 		dataColor		= '0A1922', // CSS HEX value of color to represent data (omit leading #)
 		hideForm		= 0;
 	*/
+/* For 'defaultFields'
+Multiple Feeds
+61916,61916
+Individual Channels
+separate with exclamation marks
+61916!random5!random3600
+61916!random5,61916!random3600
+*/
 
-	var defaultKey		= '', // Unique master Xively API key to be used as a default
-		defaultFeeds	= [], // Comma separated array of Xively Feed ID numbers
-		applicationName	= '', // Replaces Xively logo in the header
-		dataDuration	= '', // Default duration of data to be displayed // ref: https://xively.com/dev/docs/api/data/read/historical_data/
+
+	var defaultKey		= 'ExuHRSDhH0oQLpmG5cDTA8rWsIHazVrpUTZXUmaxfFJbk6Oj', // Unique master Xively API key to be used as a default
+		defaultFeeds	= [1264100544,1253932356], // Comma separated array of Xively Feed ID numberbbs
+		applicationName	= 'AirPi@jeovis', // Replaces Xively logo in the header
+		dataDuration	= '90days', // Default duration of data to be displayed // ref: https://xively.com/dev/docs/api/data/read/historical_data/
 		dataInterval	= 0, // Default interval for data to be displayed (in seconds)
-		dataColor		= '', // CSS HEX value of color to represent data (omit leading #)
-		hideForm		= 0; // To hide input form use value of 1, otherwise set to 0
+		dataColor		= 'dc322f', // CSS HEX value of color to represent data (omit leading #)
+		hideForm		= 1; // To hide input form use value of 1, otherwise set to 0
 
 // Function Declarations
 
